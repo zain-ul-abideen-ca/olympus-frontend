@@ -115,7 +115,7 @@ export class EnvHelper {
 
     // now add the uri path
     if (INFURA_ID_LIST.length > 0) {
-      INFURA_ID_LIST = INFURA_ID_LIST.map(infuraID => `https://mainnet.infura.io/v3/${infuraID}`);
+      INFURA_ID_LIST = INFURA_ID_LIST.map(infuraID => `https://rinkeby.infura.io/v3/${infuraID}`);
     } else {
       INFURA_ID_LIST = [];
     }
